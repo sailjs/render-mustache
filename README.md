@@ -1,5 +1,26 @@
 # Sail / Render-Mustache
 
+This module provides an engine for rendering [Mustache](http://mustache.github.com/)
+templates in [Sail.js](https://github.com/sailjs/sail) applications.  Internally,
+[mustache.js](https://github.com/janl/mustache.js) is used to render templates.
+
+## Install
+
+##### volo
+
+    $ volo add sailjs/render-mustache
+
+For more information on using volo to manage JavaScript modules, visit [http://volojs.org/](http://volojs.org/).
+
+## Usage
+
+Register engine with [render](https://github.com/sailjs/render) to process
+Mustache templates:
+
+```javascript
+render.engine('text/x-mustache-template', mustache());
+```
+
 ## Tests
 
 ##### Browser
