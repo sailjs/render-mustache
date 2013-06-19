@@ -6,8 +6,7 @@ require.config({
     'chai': 'chai/chai'
   },
   packages: [
-    { name: 'render-mustache', location: '../../../..', main: 'render-mustache' },
-    { name: 'mocha-cloud', location: '../support', main: 'mocha-cloud' }
+    { name: 'render-mustache', location: '../../../..', main: 'render-mustache' }
   ],
   shim: {
     'mocha': {
