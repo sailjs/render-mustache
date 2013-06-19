@@ -1,7 +1,7 @@
 {
   "name": "render-mustache",
   "version": "0.0.0",
-  "description": "Mustache template engine.",
+  "description": "Sail.js rendering engine for Mustache templates.",
   "repository": {
     "type": "git",
     "url": "git://github.com/sailjs/render-mustache.git"

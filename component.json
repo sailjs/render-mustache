@@ -1,0 +1,13 @@
+{
+  "name": "render-mustache",
+  "version": "0.0.0",
+  "description": "Sail.js rendering engine for Mustache templates.",
+  "repo": "sailjs/render-mustache",
+  "main": "render-mustache.js",
+  "scripts": [
+    "render-mustache.js"
+  ],
+  "dependencies": {
+  },
+  "license": "MIT"
+}
